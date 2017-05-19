@@ -17,7 +17,6 @@ deployment:
   prototype:
     branch: adb-circle
     commands:
-      - mkdir $HOME/bin
       - export PATH=$HOME/bin:$PATH
       - curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.23.0" | tar xzv -C $HOME/bin
       - cf install-plugin autopilot -f -r CF-Community
