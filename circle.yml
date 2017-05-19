@@ -2,5 +2,7 @@ general:
   build_dir: prototypes/form-wizard
 
 dependencies:
+  override:
+    - make setup
   post:
-    - bundle exec jekyll build
+    - make build
