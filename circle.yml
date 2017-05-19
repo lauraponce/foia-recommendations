@@ -1,2 +1,6 @@
 general:
   build_dir: prototypes/form-wizard
+
+dependencies:
+  post:
+    - bundle exec jekyll build
