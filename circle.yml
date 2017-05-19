@@ -3,3 +3,7 @@ dependencies:
     - make setup
   post:
     - make build
+
+test:
+  override:
+    - make test
