@@ -1,6 +1,3 @@
-general:
-  build_dir: prototypes/form-wizard
-
 dependencies:
   override:
     - make setup
